@@ -1,4 +1,4 @@
-def fibonacci_sequence():
+def fibonacci_generator():
     n=input("Enter How many Fibonaccis to generate?(n):")
     n=int(n)
     a=0
@@ -12,4 +12,4 @@ def fibonacci_sequence():
             print(b)
             a,b= b,a+b
  
-fibonacci_sequence()
+fibonacci_generator()
